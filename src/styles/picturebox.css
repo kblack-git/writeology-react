@@ -1,0 +1,18 @@
+.wrapper {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.picturebox {
+   
+    
+   
+    /* border: black solid 10px; */
+    border-radius: 25px;
+}
+
+
+

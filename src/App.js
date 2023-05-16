@@ -1,23 +1,15 @@
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import Picturebox from './components/Picturebox'
+import TipsResources from './components/TipsResources'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>Writeology</h2>
+      <p>HOME PAGES CATEGORIES CONTACT SUBSCRIBE</p>
+      <Picturebox />
+      <TipsResources name='TIPS' title='How to choose the best management software'/>
     </div>
   );
 }
